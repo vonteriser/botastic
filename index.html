@@ -33,7 +33,9 @@
         }
 
         nav {
-            position: fixed;
+            position:;
+            left:20%;
+            right:20%;
             display: flex;
             justify-content: center;
             padding: 20px 0;
@@ -51,7 +53,40 @@
 
         nav a:hover {
             color: #007aff;
-            text-size:40%/* Apple-style blue hover */
+            text-size:40%; /* Apple-style blue hover */
+        }
+      #home {
+            background:linear-gradient(lightblue,black);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        #home h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        #home p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            color: #b3b3b3;
+        }
+
+        .cta-button {
+            padding: 12px 24px;
+            background-color: #00aaff;
+            color: #ffffff;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #0088cc;
         }
 
         section {
@@ -109,18 +144,15 @@
     </style>
 </head>
 <body>
-
-<header>
-    <h1>Botastic - Learn. Play. Grow.</h1>
-</header>
-
 <nav>
     <a href="#about">About</a>
     <a href="#product">Our Product</a>
     <a href="#market">Market</a>
-    <a href="#contact">Contact</a>
 </nav>
-
+<section id="#home">
+    <h1 style="font-size:40px;">Botastic - Learn. Play. Grow.</h1>
+</section>
+  
 <section id="about" class="intro">
     <h2>About Botastic</h2>
     <p>Botastic is an AI-powered mini robot designed to make learning fun and effective for children. It introduces STEM concepts, engages in interactive learning, and helps manage screen time, all while fostering parent-child learning support and soft skills development.</p>
